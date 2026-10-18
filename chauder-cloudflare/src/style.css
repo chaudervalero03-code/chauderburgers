@@ -1,0 +1,9 @@
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+.no-scrollbar { scrollbar-width: none; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.line-clamp-2 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+@keyframes slideUp { from { transform: translateY(16px); opacity: .8; } to { transform: translateY(0); opacity: 1; } }
+.animate-fadeIn { animation: fadeIn .18s ease-out; }
+.animate-slideUp { animation: slideUp .22s ease-out; }
